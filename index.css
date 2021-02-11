@@ -49,16 +49,17 @@ blockquote, q {
 </style>
 
 
+
 html{
     font-size:62.5%;
     font-family: 'Roboto Mono', monospace;
 }
 
 body {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.5;
-    margin: auto;
     padding: 20px;
+    background: #FAEBD7;
 }
 
 * {
@@ -67,8 +68,7 @@ body {
     max-width: 100%;
 }
 
-/* header styles */
-
+/* Header styles */
 
 header {
   
@@ -76,10 +76,10 @@ header {
 
 nav a {
     display: inline-block;
-    margin: 2% 7%;
+    margin: 2% 10%;
     padding: 0 4%;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     text-decoration: none;
     text-align: center;
     border-radius: 10px;
@@ -99,13 +99,87 @@ nav a {
 
 #top {
     display: inline-block;
-    margin: 5% 0;
+    margin: 5%;
+    padding: 1%;
 }
 
-.picture img {
-    border-radius: 50%;
+
+.pic {
+    display: inline-block;
+    width:20%;
 }
+
+.pic img {
+    border-radius: 50%;
+
+}
+
+.main {
+    display: inline-block;
+    width:79%;
+    text-align: center;
+    border: 1px solid green;
+}
+
 
 .main h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 4em;
+    padding:1%;
 }
+
+.main h2 {
+    font-size: 1.5em;
+    padding:1%;
+}
+
+.main p {
+    font-size: 1.5em;
+    padding:1%;
+    margin: 0 32%;
+}
+
+
+/* Main body styles */
+
+#coloredBox {
+    background: #DDB9A3;
+    padding: 2%;
+    margin: 2%;
+    font-size: 3rem;
+    color: #F5DEB3;
+}
+
+.description p {
+    padding: 1% 0;
+}
+
+#mid {
+    padding: 0 30%;
+}
+
+.fire {
+    margin: 0 20%;
+    text-align: center;
+}
+
+.fire span {
+    font-weight: bold;
+}
+
+.camper {
+    margin: 5% 20%;
+    text-align: center;
+}
+
+.camper span {
+    font-weight: bold;
+}
+
+#mountains {
+    background-image: url("assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+}
+
