@@ -63,7 +63,6 @@ body {
 }
 
 * {
-    border: gray solid 1px;
     box-sizing: border-box;
     max-width: 100%;
 }
@@ -118,7 +117,6 @@ nav a {
     display: inline-block;
     width:79%;
     text-align: center;
-    border: 1px solid green;
 }
 
 
@@ -182,10 +180,6 @@ nav a {
 }
 
 .mountains img {
-    /* background-image: url("assets/footer_img.jpg");
-    background-repeat: no-repeat; */
-
-    /* height: 100%; */
     width: 100%;
     margin-top: -200px; 
 }
