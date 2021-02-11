@@ -176,10 +176,17 @@ nav a {
     font-weight: bold;
 }
 
-#mountains {
-    background-image: url("assets/footer_img.jpg");
-    background-repeat: no-repeat;
-    height: 20vh;
+.mountains {
+    height: 30rem;
+    overflow:hidden;
+}
+
+.mountains img {
+    /* background-image: url("assets/footer_img.jpg");
+    background-repeat: no-repeat; */
+
+    /* height: 100%; */
     width: 100%;
+    margin-top: -200px; 
 }
 
